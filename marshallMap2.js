@@ -2,7 +2,19 @@ function initMap() {
     var infowindow = new google.maps.InfoWindow();
     var map =  new google.maps.Map(document.getElementById('map'), {
         zoom: 5.5, 
-        center: {lat: 55, lng: -4}
+        center: {lat: 55, lng: -4},
+        styles: [
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#5ee7df'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#000000'}]
+            }
+            ]
     });
 
     google.maps.event.addListener(map, "click", function(event) {
