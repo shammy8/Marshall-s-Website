@@ -1,9 +1,9 @@
 <?php
     if (isset($_POST['submitpressed'])){ //do the following if user got to this page by submitting the form as oppose to entering url manually.
         $servername = 'localhost';
-        $username = 'root';                      
-        $password = 'password';                   
-        $dbname = 'marshall';            
+        $username = 'root';                 //$username = 'shammy12_allan';        
+        $password = 'password';             //$password = 'Marishall1';         
+        $dbname = 'marshall';               //$dbname = 'shammy12_marshall';  
         
         $name = $_POST['name'];         // get the information entered by the user from the christmas form
         $email = $_POST['email'];
