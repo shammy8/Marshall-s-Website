@@ -2,6 +2,6 @@
 
 https://marshallmattersthebc.com/
 
-HTML, CSS, Javascript, PHP.
+HTML, CSS, Javascript, PHP, SQL.
 
 Didn't upload images.
